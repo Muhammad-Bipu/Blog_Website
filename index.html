@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog Website</title>
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Font awsome CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Italianno&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- header starts -->
+    <header id="blog_header">
+        <figure class="logo_figure">
+            <i class="fab fa-autoprefixer logo"></i>
+        </figure>
+
+        <i class="fas fa-bars fa-4x" id="menu_icon"></i>
+        
+        <nav aria-label="Main Menu" id="menu" class="hidden">
+            <ul role="menubar" aria-label="Main Menu">
+                <li role="none"><a href="#" class="nav_link" role="menuitem">Home</a></li>
+                <li role="none"><a href="#" class="nav_link" role="menuitem">About</a></li>
+                <li role="none"><a href="#" class="nav_link" role="menuitem">Archives</a></li>
+                <li role="none"><a href="#" class="nav_link" role="menuitem">Blog Posts</a></li>
+                <li role="none"><a href="#" class="nav_link" role="menuitem">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!-- header starts -->
+
+    <!-- main starts -->
+     <main>
+        <!-- banner starts -->
+         <section id="blog_banner_section">
+            <article>
+                <h1 class="banner_heading">Web Development</h1>
+                <p class="banner_description">
+                    Hi! I am Muhammad Bipu. Welcome to my own webbsite. I study in IDMVS(Institute of Disaster Management And Vulnerability Studies, Univer of Dhaka). But I like web development and programming. It is my passion and one of my favourite hobby.
+                </p>
+            </article>
+            <aside><img src="images/nathan-da-silva-FO7kUmBYVi0-unsplash.jpg" alt="cover photo" class="banner_img"></aside>
+         </section>
+        <!-- banner starts -->
+
+        <!-- about me starts -->
+         <section id="blog_about" class="section_center">
+            <h2 class="section_heading text_white">About Me</h2>
+            <div class="card_container">
+                <div class="card">
+                    <h3 class="card_header">Work Experience</h3>
+                    <p class="card_description">
+                        IDMVS, University of Dhaka <br>
+                        Dhaka, Bangladesh <br>
+                        I am completing my graduation. <br>
+                        Here I learned disaster informaticcs(Python, MySql, Networking), disaster management, risk management, hazard detection. <br> <br>
+                        Shahid Bulbul Government College, Pabna <br>
+                        Here I completed my HSC. <br>
+                        I learned ICT, English, Bangla, Maths, Physics, Chemistry, Biology. <br><br>
+                        Anisul Islam, YouTube<br>
+                        Here I learned web development.<br>
+                        Technology I learned: html, css 
+                    </p>
+                    <button type="submit" class="card_btn btn">Read More</button>
+                </div>
+                <div class="card">
+                    <h3 class="card_header">Education</h3>
+                    <p class="card_description">
+                        <br><br>
+                        BSc in Disaster Management <br>
+                        IDMVS, University of Dhaka <br>
+                        2022 - Running; CGPA: 3.41 <br>
+                        https://du.ac.bd/webPost/97/67 <br><br><br><br><br>
+
+
+                        HSC in Science <br>
+                        Shahid Bulbul Government College, Pabna <br>
+                        2019 - 2021; GPA: 5.00 <br>
+                        https://sbgcp.edu.bd/<br><br>
+                    </p>
+                    <button type="submit" class="card_btn btn">Read More</button>
+                </div>
+                <div class="card">
+                    <h3 class="card_header">Skill</h3>
+                    <p class="card_description">
+                        <br><br>
+                        <label for="file">HTML</label> <br>
+                        <progress id="file" value="90" max="100" style="width: 90%; height: 2.5rem;"> 90% </progress> <br>
+
+                        <label for="file">CSS</label> <br>
+                        <progress id="file" value="70" max="100" style="width: 90%; height: 2.5rem;"> 70% </progress> <br>
+
+                        <label for="file">Javascript</label> <br>
+                        <progress id="file" value="55" max="100" style="width: 90%; height: 2.5rem;"> 55% </progress> <br>
+
+                        <label for="file">Python</label> <br>
+                        <progress id="file" value="60" max="100" style="width: 90%; height: 2.5rem;"> 60% </progress> <br>
+
+                        <label for="file">C/C++</label> <br>
+                        <progress id="file" value="65" max="100" style="width: 90%; height: 2.5rem;"> 65% </progress> <br> <br>
+                        
+                    </p>
+                    <button type="submit" class="card_btn btn">Read More</button>
+                </div>
+            </div>
+         </section>
+        <!-- about me ends -->
+
+        <!-- archives starts-->
+         <section id="archives" class="section_center">
+            <h2 class="section_heading">Archives</h2>
+            <div class="archives_container">
+                <ul class="archives_container_lists">
+                    <li class="archives_container_list">
+                        <img src="images/img1.jpg" alt="image-1" class="archives_img">
+                    </li>
+                    <li class="archives_container_list">
+                        <img src="images/img2.jpg" alt="image-1" class="archives_img">
+                    </li>
+                    <li class="archives_container_list">
+                        <img src="images/img3.jpg" alt="image-1" class="archives_img">
+                    </li>
+                    <li class="archives_container_list">
+                        <img src="images/img4.jpg" alt="image-1" class="archives_img">
+                    </li>
+                    <li class="archives_container_list">
+                        <img src="images/img5.jpg" alt="image-1" class="archives_img">
+                    </li>
+                </ul>
+            </div>
+         </section>
+        <!-- archives ends-->
+
+        <!-- blog_post starts -->
+         <section id="blog_posts" class="section_center">
+            <h2 class="section_heading blog_posts_heading">Blog Posts</h2>
+            <div class="blog_post">
+                <aside class="blog_post_aside">
+                    <img src="images/blog_img.jpg" alt="" class="blog_img">
+                </aside>
+                <article class="blog_content">
+                    <h2 class="blog_heading">Blog 1</h2>
+                    <h3 class="blog_sub_heading">HTML</h3>
+                    <p class="blog_description">
+                        The common markup language used to create online pages and web apps is HTML (Hyper Text Markup Language). JavaScript offers interactivity and dynamic behavior, CSS (Cascading Style Sheets) manages design and layout, and it specifies the structure and content of a webpage.
+                    </p>
+                    <button type="submit" class="btn blog_btn">Learn More</button>
+                </article>
+            </div>
+            <div class="blog_post">
+                <aside class="blog_post_aside">
+                    <img src="images/blog_img.jpg" alt="" class="blog_img">
+                </aside>
+                <article class="blog_content">
+                    <h2 class="blog_heading">Blog 2</h2>
+                    <h3 class="blog_sub_heading">CSS</h3>
+                    <p class="blog_description">
+                        Cascading Style Sheets, or CSS, is a language for style sheets that specifies how a document produced in a markup language like HTML or XML should look. In essence, it's a method of styling your web pages, giving you control over how your website appears and feels.
+                    </p>
+                    <button type="submit" class="btn blog_btn">Learn More</button>
+                </article>
+            </div>
+            <div class="blog_post">
+                <aside class="blog_post_aside">
+                    <img src="images/blog_img.jpg" alt="" class="blog_img">
+                </aside>
+                <article class="blog_content">
+                    <h2 class="blog_heading">Blog 3</h2>
+                    <h3 class="blog_sub_heading">JavaScript</h3>
+                    <p class="blog_description">
+                        The Web's Dynamic Language <br>
+
+                        JavaScript is a flexible programming language that gives websites dynamic behavior and interactivity. Along with HTML and CSS, it is a fundamental web technology.                    
+                    </p>
+                    <button type="submit" class="btn blog_btn">Learn More</button>
+                </article>
+            </div>
+         </section>
+        <!-- blog_post ends -->
+
+        <!-- contact starts -->
+         <section id="contact_section" class="section_center">
+            <h2 class="section_heading blog_posts_heading text_white">Contact Me</h2>
+            <form id="contact_form" action="mailto:mdhasanbipu@gmail.com" method="post" enctype="text/plain">
+                <div class="form_control">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" required autocomplete="name">
+                </div>
+                <div class="form_control">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" required autocomplete="email">
+                </div>
+                <div class="form_control">
+                    <label for="message">Message</label>
+                    <textarea name="message" id="message"></textarea>
+                </div>
+                <div class="form_control form_btn_field">
+                    <button type="submit" class="btn contact_btn">Submit</button>
+                </div>
+            </form>
+         </section>
+        <!-- contact ends -->
+    </main>
+    <!-- main ends -->
+
+    <!-- footer starts -->
+     <footer>
+        <p class="copyright_text">
+            Copyright &copy; by Muhammad Bipu. All rights reserved.
+        </p>
+
+        <nav aria-label="Footer Menu">
+            <ul role="menubar2" id="menubar2" aria-label="Footer Menu">
+                <li role="none"><a href="https://www.facebook.com/muhammadbipu.pramanik" target="_blank" class="nav_link" role="menuitem"><i class="fab fa-facebook footer_icon"></i></a></li>
+                <li role="none"><a href="https://www.youtube.com/@muhammadbipu5615" target="_blank" class="nav_link" role="menuitem"><i class="fab fa-youtube footer_icon"></i></a></li>
+                <li role="none"><a href="https://github.com/Muhammad-Bipu" target="_blank" class="nav_link" role="menuitem"><i class="fab fa-github footer_icon"></i></a></li>
+                <li role="none"><a href="https://wa.me/01309942217" target="_blank" class="nav_link" role="menuitem"><i class="fab fa-whatsapp footer_icon"></i></a></li>
+            </ul>
+        </nav>
+     </footer>
+    <!-- footer ends -->
+
+    <script src="script.js"></script>
+</body>
+</html>
